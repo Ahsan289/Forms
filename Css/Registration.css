@@ -1,0 +1,18 @@
+*{
+    font-family: 'Overlock SC', sans-serif;
+}
+#home-back{
+    width:7%;
+    display: block;
+    margin-right: auto;
+}
+.tr{
+    /* width: 60%; */
+    /* height: 60%; */
+    margin: 6px;
+    display: block;
+}
+.btn{
+    border-radius: 4px solid white;
+    padding: 12px;
+    }

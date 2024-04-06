@@ -1,0 +1,21 @@
+*{
+    font-family: 'Overlock SC', sans-serif;
+}
+.tr{
+    /* width: 60%; */
+    /* height: 60%; */
+    margin: 6px;
+    display: block;
+}
+#login{
+    padding: 22px;
+    
+    display: block;
+    position: relative;
+    left: 70px;
+}
+
+    .btn{
+        border-radius: 4px solid white;
+        padding: 12px;
+        }

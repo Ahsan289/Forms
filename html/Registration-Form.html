@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+    <link rel="icon" type="image/png" href="../Images/1-removebg-preview.png">
+    <link rel="stylesheet" href="../Css/Registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <a href="../index.html">
+            <img id="home-back" src="../Images/left-arrow.png" alt="Back To Home">
+        </a>
+    </div>
+    <div>
+        <img src="../Images/logo-removebg-preview.png" alt="SMIT" style="margin-left: auto;
+        margin-right: auto; display: block; width: 20%; ">
+        <p style="text-align: center;font-size: 32px; margin-top: -30px;">
+            STUDENT REGISTRATION FORM
+        </p>
+    </div>
+    
+    <form action="../html/thanks.html" method="get">
+        <table>
+            <tr>
+                <td align="center" width="380">
+                    <label for="f-name">FIRST NAME</label>
+                </td>
+                <td>
+                    <input type="text" name="first-name" required maxlength="15" placeholder="Your First Name"
+                        id="f-name">&nbsp;(max-length 15 characters)
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td align="center" width="380">
+                    <label for="l-name">LAST NAME</label>
+                </td>
+
+                <td>
+                    <input type="text" name="last-name" id="l-name" placeholder="Your Last Name" required
+                        maxlength="15">&nbsp;(max-length 15 characters)
+                </td>
+            </tr>
+            <tr><td class="tr"></td></tr>
+            <tr>
+                <td align="center" width="380">
+                    <label for="dob">DATE OF BIRTH</label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td align="center" width="380">
+                    <label for="mail">EMAIL</label>
+                </td>
+                <td>
+                    <input type="email" name="mail" id="mail" required placeholder="Your E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td align="center" widht="380">
+                    <label for="phone">PHONE</label>
+                </td>
+                <td>
+                    <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required>&nbsp;(11 Digits
+                    Only)
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td width="380" align="center">
+                    <label for="gender">GENDER</label>
+                </td>
+                <td>
+
+                    <input required type="radio" name="gender" id="male">
+                    <label for="male">MALE</label>
+
+                    <input required type="radio" name="gender" id="female">
+                    <label for="female">FEMALE</label>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <td width="380" align="center">
+                <label for="location">ADDRESS</label>
+            </td>
+            <td>
+                <textarea name="address" id="location" rows="5" cols="40" placeholder="Your Address Here"
+                    required></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td width="380" align="center">
+                    <label for="city">CITY</label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city" required placeholder="Enter Your City Name"
+                        maxlength="10">&nbsp;(Max-Length 10 Characters)
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <td width="380" align="center">
+                <label for="state">STATE</label>
+            </td>
+            <td>
+                <input type="text" name="state" id="state">&nbsp;(Max-Length 10 Characters)
+            </td>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td width="380" align="center">
+                    <label for="country">COUNTRY</label>
+                </td>
+                <td>
+                    <input type="tel" name="country" id="country">
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td width="380" align="center">
+                    <label for="hobbies">HOBBIES</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="Drawing">
+                    <label for="Drawing">Drawing</label>
+                    <input type="checkbox" name="hobbies" id="Programming">
+                    <label for="Programming">Programming</label>
+                    <input type="checkbox" name="hobbies" id="Singing">
+                    <label for="Singing">Singing</label>
+                    <input type="checkbox" name="hobbies" id="Designing">
+                    <label for="Designing">Designing</label>
+                    <br>
+                    <input type="checkbox" name="hobbies" id="other">
+                    <label for="other">Other</label>
+                    <input type="text" name="hobbies" placeholder="Other">
+                </td>
+            </tr>
+            <tr>
+                <td class="tr"></td>
+            </tr>
+            <tr>
+                <td width="380" align="center">
+                    <label for="Qualification">QUALIFICATION</label>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>
+                                <b>SI.NO.</b>
+                            </th>
+                            <th>
+                                <b>Examination</b>
+                            </th>
+                            <th>
+                                <b>Board</b>
+                            </th>
+                            <th>
+                              <b>Percentage</b>
+                            </th>
+                            <th>
+                                <b>Year Of Passing</b>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                1.
+                            </td>
+                            <td width="100" >
+                                Matriculation
+                            </td>
+                            <td>
+                                <input type="text" maxlength="15" required placeholder="Board">
+                            </td>
+                            <td>
+                                <input type="text" required placeholder="Percentage" maxlength="5" >
+                            </td>
+                            <td>
+                                <input type="text" required placeholder="Year Of Passing" maxlength="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2.
+                            </td>
+                            <td width="100">
+                                Intermediate
+                            </td>
+                            <td>
+                                <input type="text" maxlength="15" required placeholder="Board">
+                            </td>
+                            <td>
+                                <input type="text" required placeholder="Percentage" maxlength="5" >
+                            </td>
+                            <td>
+                                <input type="text" required placeholder="Year Of Passing" maxlength="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3.
+                            </td>
+                            <td width="100">
+                                Bachelor's
+                            </td>
+                            <td>
+                                <input type="text" maxlength="15"  placeholder="Board">
+                            </td>
+                            <td>
+                                <input type="text"  placeholder="Percentage" maxlength="5" >
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Year Of Passing" maxlength="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4.
+                            </td>
+                            <td width="100">
+                                Master's
+                            </td>
+                            <td>
+                                <input type="text" maxlength="15" placeholder="Board">
+                            </td>
+                            <td>
+                                <input type="text"  placeholder="Percentage" maxlength="5" >
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Year Of Passing" maxlength="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                (15 Characters Max)
+                            </td>
+                            <td>
+                                (Upto 2 Decimals)
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>
+                    <td width="380" align="center">
+                        <label for="course">SELECT COURSE</label>
+                    </td>
+                    <td>
+                        <select required name="course" id="course">
+                            <option value="Select Course">Select Course</option>
+                            <option value="Web & Mobile App Develpment">Web & Mobile App Develpment</option>
+                            <option value="Ai & ChatBot">Ai & ChatBot</option>
+                            <option value="UI & UX Designing">UI & UX Designing</option>
+                            <option value="Laptop Repairing">Laptop Repairing</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td class="tr"></td></tr>
+                <tr>
+                    <td width="380" align="center">
+                    <label for="pic">UPLOAD IMAGE<br>(Only Jpg or Jpeg)</label>
+                </td>
+                <td>
+                    <input type="file" required accept=".jpg,jpeg" name="pic" id="pic">  
+                </td>
+
+                </tr>
+                <tr><td class="tr"></td></tr>
+                <tr>
+                    <td colspan="5" align="center">
+                    <button class="btn" type="submit">
+                     Submit Now
+                    </button>
+                        <button class="btn" type="reset">Reset Now</button>
+                    </td>
+                </tr>
+                
+          </table>
+    </form>
+
+</body>
+
+</html>
